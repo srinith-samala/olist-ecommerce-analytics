@@ -1,6 +1,6 @@
 # E-Commerce Analytics (Olist Dataset)
 
-This project analyzes an e-commerce dataset from Olist (Brazil) using **MySQL** and **Power BI** to answer real business questions about revenue, customers, and products.
+This project analyzes an e-commerce dataset from Olist (Brazil) using **MySQL** to answer real business questions about revenue, customers, and products.
 
 The goal is to demonstrate **business-grade SQL analytics**, not just dashboards.
 
@@ -69,30 +69,6 @@ powerbi/ → Power BI dashboard
 - Revenue concentration (Pareto / 80-20)  
 
 ---
-
-## 📊 Power BI
-
-The Power BI dashboard connects directly to MySQL and visualizes:
-
-- Total Revenue & AOV  
-- Order Funnel (Delivered vs Cancelled)  
-- Customer behavior (Repeat vs One-time)  
-- Top customers and revenue concentration  
-- Product & category performance  
-
-File:
-powerbi/olist_ecommerce_dashboard.pbix
-
-## 🚀 How to Run
-
-1. Load the Olist dataset into MySQL  
-2. Create the sample tables  
-3. Run the queries inside `sql/ecommerce_analytics.sql`  
-4. Connect Power BI to MySQL  
-5. Build visuals using these SQL outputs  
-
-This project is designed to be **fully reproducible**.
-
 
 ## 📌 Why this project matters
 This project shows:
